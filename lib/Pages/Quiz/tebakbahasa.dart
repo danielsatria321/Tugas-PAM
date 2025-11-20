@@ -160,10 +160,7 @@ class _LanguageQuizPageState extends State<LanguageQuizPage> {
       context: context,
       barrierDismissible: false,
       builder: (_) => AlertDialog(
-        title: const Text(
-          "Kuis Bahasa Selesai! 🎉",
-          textAlign: TextAlign.center,
-        ),
+        title: const Text("Kuis Bahasa Selesai! ", textAlign: TextAlign.center),
         content: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
